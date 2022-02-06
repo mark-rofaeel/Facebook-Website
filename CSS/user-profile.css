@@ -1,0 +1,230 @@
+body { padding-top: 70px; }
+
+.navbar-inverse {
+    background: #392fc2;
+	background: -webkit-linear-gradient(to right, #4223b3, #372dcc);
+	background: linear-gradient(to right, #4223b3, #372dcc);
+  color: rgb(255, 255, 255);
+}
+.navbar-inverse .navbar-brand, .navbar-inverse a{
+  color:white;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+} 
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.sidebar1 {
+    background: #2727b1;
+	background: -webkit-linear-gradient(to right, #2727b1, #2727b1);
+	background: linear-gradient(to right, #2727b1, #2727b1);
+    padding: 0px;
+    min-height: 100%;
+}
+.list {
+    color: #fff;
+    list-style: none;
+    padding-left: 0px;
+}
+.list::first-line {
+    color: rgba(255, 255, 255, 0.5);
+}
+.list> li, h5 {
+    padding: 5px 0px 5px 40px;
+}
+.list>li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-left: 5px solid white;
+    color: white;
+    font-weight: bolder;
+    padding-left: 35px;
+}
+.main-content{
+text-align:center;
+}
+
+.container
+{
+
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+  0 10px 10px rgba(0,0,0,0.22);
+position: relative;
+overflow: hidden;
+}
+
+.sidebar1
+{
+
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+  0 10px 10px rgba(0,0,0,0.22);
+position: relative;
+overflow: hidden;
+}
+
+#textarea
+{
+resize: none;
+width:550px;
+margin-left:25px;
+margin-bottom: 12px;
+}
+
+#commenttextarea {
+    resize: none;
+    width: 450px;
+    margin-left: 25px;
+    margin-bottom: 12px;
+}
+
+.col-form-label
+{
+  margin-left:25px;
+}
+
+body {
+    background: #dcdcf5;
+	
+}
+
+.profilepanel {
+    width: 950px !important;
+    margin-left: 315px;
+}
+
+.left-panel {
+    
+    margin-left: 30px;
+}
+
+.bg_blur
+{
+/*    background-image:url(photo-1529665253569-6d01c0eaf7b6.JFIF);*/
+    height: 300px;
+    background-size: cover;
+}
+
+
+.header{
+    color : #808080;
+    margin-left:10%;
+    margin-top:70px;
+}
+
+.picture {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 75px;
+    left: -75px;
+    margin: -10px;
+}
+
+.comment-list .row {
+    margin-bottom: 0px;
+  }
+  .comment-list .panel .panel-heading {
+    padding: 4px 15px;
+    position: absolute;
+    border:none;
+    /*Panel-heading border radius*/
+    border-top-right-radius:0px;
+    top: 1px;
+  }
+  .comment-list .panel .panel-heading.right {
+    border-right-width: 0px;
+    /*Panel-heading border radius*/
+    border-top-left-radius:0px;
+    right: 16px;
+  }
+  .comment-list .panel .panel-heading .panel-body {
+    padding-top: 6px;
+  }
+  .comment-list figcaption {
+    /*For wrapping text in thumbnail*/
+    word-wrap: break-word;
+  }
+  /* Portrait tablets and medium desktops */
+  @media (min-width: 768px) {
+    .comment-list .arrow:after, .comment-list .arrow:before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent;
+    }
+    .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+      border-left: 0;
+    }
+    /*****Left Arrow*****/
+    /*Outline effect style*/
+    .comment-list .panel.arrow.left:before {
+      left: 0px;
+      top: 30px;
+      /*Use boarder color of panel*/
+      border-right-color: inherit;
+      border-width: 16px;
+    }
+    /*Background color effect*/
+    .comment-list .panel.arrow.left:after {
+      left: 1px;
+      top: 31px;
+      /*Change for different outline color*/
+      border-right-color: #FFFFFF;
+      border-width: 15px;
+    }
+    /*****Right Arrow*****/
+    /*Outline effect style*/
+    .comment-list .panel.arrow.right:before {
+      right: -16px;
+      top: 30px;
+      /*Use boarder color of panel*/
+      border-left-color: inherit;
+      border-width: 16px;
+    }
+    /*Background color effect*/
+    .comment-list .panel.arrow.right:after {
+      right: -14px;
+      top: 31px;
+      /*Change for different outline color*/
+      border-left-color: #FFFFFF;
+      border-width: 15px;
+    }
+  }
+  .comment-list .comment-post {
+    margin-top: 6px;
+  }
+
+  .img {
+    width: 500px;
+    height: 300px;
+    padding-bottom: 8px;
+}
+
+.a
+{
+color: white;
+
+}
+
+.liked
+{
+    background-color: lightgrey !important;
+}
+
+.like strong
+{
+    color: darkblue;
+}
+
+.wrapper
+{
+    visibility: hidden;
+}
+
+.hide-comment {
+  display: none;
+}

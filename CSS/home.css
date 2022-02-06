@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    padding-top: 70px;
+}
+
+.navbar-inverse {
+    background: #732fc2;
+    background: -webkit-linear-gradient(to right, #4223b3, #372dcc);
+    background: linear-gradient(to right, #4223b3, #372dcc);
+    color: rgb(255, 255, 255);
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+}
+
+#textarea {
+    resize: none;
+    width: 550px;
+    margin-left: 25px;
+    margin-bottom: 12px;
+}
+
+#commenttextarea {
+    resize: none;
+    width: 450px;
+    margin-left: 25px;
+    margin-bottom: 12px;
+}
+
+.col-form-label {
+    margin-left: 25px;
+}
+
+body {
+    background: #dcdcf5;
+
+}
+
+.header {
+    color: #808080;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+
+.picture {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 75px;
+    left: -75px;
+}
+
+.liked {
+    background-color: lightgrey !important;
+}
+
+.like strong {
+    color: darkblue;
+}
+
+.like-company {
+    margin-left: 300px !important;
+}
+
+.comment-list {
+    width: 700px;
+    margin-left: 5px;
+}
+
+.comment-list .row {
+    margin-bottom: 0px;
+}
+
+.comment-list .panel .panel-heading {
+    padding: 4px 15px;
+    position: absolute;
+    border: none;
+    /*Panel-heading border radius*/
+    border-top-right-radius: 0px;
+    top: 1px;
+}
+
+.comment-list .panel .panel-heading.right {
+    border-right-width: 0px;
+    /*Panel-heading border radius*/
+    border-top-left-radius: 0px;
+    right: 16px;
+}
+
+.comment-list .panel .panel-heading .panel-body {
+    padding-top: 6px;
+}
+
+.comment-list figcaption {
+    /*For wrapping text in thumbnail*/
+    word-wrap: break-word;
+}
+
+.comment-list .comment-post {
+    margin-top: 6px;
+}
+
+.img {
+    width: 500px;
+    height: 300px;
+    padding-bottom: 8px;
+}
+
+.img-responsive {
+    width: 80px !important;
+    height: 95px !important;
+}
+
+.a {
+    color: white;
+
+}
+
+.liked {
+    background-color: lightgrey !important;
+}
+
+.wrapper {
+    visibility: hidden;
+}
+
+.chat-box {
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    background: white;
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+    border-style: solid;
+}
+
+.chat-head {
+    width: inherit;
+    height: 45px;
+    background: #2727b1;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.chat-head h3 {
+    color: white;
+    padding: 0px !important;
+    display: inline-block !important;
+}
+
+.chat-head img {
+    cursor: pointer;
+    float: right;
+    width: 25px;
+    margin: 10px;
+}
+
+.chat-body {
+    height: 355px;
+    width: inherit;
+    overflow: auto;
+    /*	margin-bottom: 45px;*/
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 0px;
+    height: 45px;
+    /*    width: 250px;*/
+    right: 20px;
+}
+
+.chat-button input {
+    width: inherit;
+    height: inherit;
+    background: #2727b1;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    resize: none;
+}
+
+.chat-text {
+    position: fixed;
+    bottom: 0px;
+    height: 45px;
+    width: 250px;
+}
+
+.chat-text textarea {
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    resize: none;
+}
+
+.chat-text textarea:active,
+.chat-text textarea:focus,
+.chat-text textarea:hover {
+    border-color: royalblue;
+}
+
+.msg-send {
+    background: #2ecc71;
+}
+
+.msg-receive {
+    background: #3498db;
+}
+
+.msg-send,
+.msg-receive {
+    width: 200px;
+    height: 35px;
+    padding: 5px 5px 5px 10px;
+    margin: 10px auto;
+    border-radius: 3px;
+    line-height: 30px;
+    position: relative;
+    color: white;
+}
+
+.msg-receive:before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border: 15px solid;
+    border-color: transparent #3498db transparent transparent;
+    left: -29px;
+    top: 7px;
+}
+
+.msg-send:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border: 15px solid;
+    border-color: transparent transparent transparent #2ecc71;
+    right: -29px;
+    top: 7px;
+}
+
+.msg-receive:hover,
+.msg-send:hover {
+    opacity: .9;
+}
+
+.hide-comment {
+    display: none;
+}
